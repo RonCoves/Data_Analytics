@@ -12,13 +12,9 @@ elif (50 <= sal < 70) and (kid == 'N'):
     print("Your Tax is 50")
 elif (50 <= sal < 70) and (kid == 'Y'):
     print("Your Tax is 45")
-elif (sal < 30) and (kid == 'N'):
+elif sal < 30:
     print("Your Tax is 0")
-elif (sal < 30) and (kid == 'Y'):
-    print("Your Tax is 0")
-elif (sal > 70) and (kid == 'Y'):
-    print("Your Tax is 55")
-elif (sal > 70) and (kid == 'N'):
+elif sal > 70:
     print("Your Tax is 55")
 else:
     print("You entered incorrect data")
